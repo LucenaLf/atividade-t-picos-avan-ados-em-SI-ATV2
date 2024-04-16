@@ -5,7 +5,7 @@ const quizPOO = require('./quiz_poo');
 const quizHTMLCSSJS = require('./quiz_html_css_js');
 
 const app = express();
-const PORT = 3000;
+const PORT = 8081;
 
 app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({ extended: true }));
